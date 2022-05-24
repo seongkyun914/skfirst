@@ -19,6 +19,7 @@ public class HelloControllerTest {
 
     @Autowired
     private MockMvc mvc;
+    private MockMvc mvc2;
 
     @Test
     public void helloTest() throws Exception{
