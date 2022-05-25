@@ -49,16 +49,13 @@ public class PostsApiControllerTest {
     private PostsRepository postsRepository;
 
 
-
-
-
     @After
     public void tearDown() throws Exception {
         postsRepository.deleteAll();
     }
 
     @Test
-    public void Posts_등록된다() throws Exception {
+    public void Posts_register() throws Exception {
         //given
         String title = "title";
         String content = "content";
